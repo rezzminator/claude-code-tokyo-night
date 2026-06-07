@@ -1,8 +1,10 @@
-# Neon Night — a Claude Code theme
+# Tokyo Night — a Claude Code theme
 
-A loud, high-saturation custom theme for [Claude Code](https://code.claude.com), the CLI coding agent. Electric purple accents, neon-mint success, hot-pink text, laser-cyan plan mode — tuned to stay readable on a dark `#1a1b26` canvas. Color family inspired by [Tokyo Night](https://github.com/tokyo-night/tokyo-night-vscode-theme), then pushed into neon.
+A loud, high-saturation custom theme for [Claude Code](https://code.claude.com), the CLI coding agent. Electric purple accents, neon-mint success, hot-pink text, laser-cyan plan mode — tuned to stay readable on a dark `#1a1b26` canvas.
 
-![Neon Night theme preview](./preview.png)
+![Tokyo Night theme preview](./preview.png)
+
+![Tokyo Night theme in a live session](./preview-2.png)
 
 > Requires **Claude Code v2.1.118 or later** (custom theme support).
 
@@ -19,7 +21,7 @@ A loud, high-saturation custom theme for [Claude Code](https://code.claude.com),
 | Prompt border (`promptBorder`) | 🟦 electric indigo | `#7c4dff` |
 | Bash border (`bashBorder`) | 🟠 vivid orange | `#ff8c42` |
 
-The full token map (diffs, fullscreen backgrounds, subagent colors, usage meter, speaker labels, shimmer variants) lives in [`neon-night.json`](./neon-night.json).
+The full token map (diffs, fullscreen backgrounds, subagent colors, usage meter, speaker labels, shimmer variants) lives in [`tokyo-night.json`](./tokyo-night.json).
 
 ## Install
 
@@ -29,18 +31,18 @@ Custom themes are JSON files in `~/.claude/themes/`. Claude Code watches that fo
 
 ```bash
 mkdir -p ~/.claude/themes && \
-  curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-code-neon-night/main/neon-night.json \
-  -o ~/.claude/themes/neon-night.json
+  curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-code-tokyo-night/main/tokyo-night.json \
+  -o ~/.claude/themes/tokyo-night.json
 ```
 
 ### Manual
 
-1. Download [`neon-night.json`](./neon-night.json).
+1. Download [`tokyo-night.json`](./tokyo-night.json).
 2. Drop it into `~/.claude/themes/` (create the folder if it doesn't exist).
 
 ### Activate
 
-Run `/theme` inside Claude Code, pick **Neon Night**, done. Your choice is saved to `~/.claude/settings.json` as `"theme": "custom:neon-night"`.
+Run `/theme` inside Claude Code, pick **Tokyo Night**, done. Your choice is saved to `~/.claude/settings.json` as `"theme": "custom:tokyo-night"`.
 
 ## Match your terminal background (optional)
 
@@ -57,7 +59,7 @@ The theme styles Claude Code's own elements, but the terminal's base background 
 
 ## Customize
 
-Tweak any token live: run `/theme`, highlight **Neon Night**, press `Ctrl+E` for an interactive editor with a live preview. Or edit `~/.claude/themes/neon-night.json` directly — it reloads on save.
+Tweak any token live: run `/theme`, highlight **Tokyo Night**, press `Ctrl+E` for an interactive editor with a live preview. Or edit `~/.claude/themes/tokyo-night.json` directly — it reloads on save.
 
 Color values accept `#rrggbb`, `#rgb`, `rgb(r,g,b)`, `ansi256(n)`, or `ansi:<name>`. Unknown tokens and invalid values are ignored, so a typo can't break rendering. Full token reference: [Claude Code terminal config docs](https://code.claude.com/docs/en/terminal-config#create-a-custom-theme).
 
