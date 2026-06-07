@@ -63,6 +63,10 @@ Tweak any token live: run `/theme`, highlight **Tokyo Night**, press `Ctrl+E` fo
 
 Color values accept `#rrggbb`, `#rgb`, `rgb(r,g,b)`, `ansi256(n)`, or `ansi:<name>`. Unknown tokens and invalid values are ignored, so a typo can't break rendering. Full token reference: [Claude Code terminal config docs](https://code.claude.com/docs/en/terminal-config#create-a-custom-theme).
 
+## Part of Professor
+
+This theme ships as a personalization asset of **[Professor](https://github.com/mreza0100/professor)** — a transplantable Claude Code operating layer (multi-PhD persona, command pipeline, agents, and skills). Installs to `~/.claude/themes/` and applies the same way standalone or as part of a Professor install.
+
 ## License
 
 MIT — do whatever you like.
