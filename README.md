@@ -31,7 +31,7 @@ Custom themes are JSON files in `~/.claude/themes/`. Claude Code watches that fo
 
 ```bash
 mkdir -p ~/.claude/themes && \
-  curl -fsSL https://raw.githubusercontent.com/mreza0100/claude-code-tokyo-night/main/tokyo-night.json \
+  curl -fsSL https://raw.githubusercontent.com/rezzminator/claude-code-tokyo-night/main/tokyo-night.json \
   -o ~/.claude/themes/tokyo-night.json
 ```
 
@@ -65,7 +65,7 @@ Color values accept `#rrggbb`, `#rgb`, `rgb(r,g,b)`, `ansi256(n)`, or `ansi:<nam
 
 ## Part of Professor
 
-This theme ships as a personalization asset of **[Professor](https://github.com/mreza0100/professor)** — a transplantable Claude Code operating layer (multi-PhD persona, command pipeline, agents, and skills). Installs to `~/.claude/themes/` and applies the same way standalone or as part of a Professor install.
+This theme ships as a personalization asset of **[Professor](https://github.com/rezzminator/professor)** — a transplantable Claude Code operating layer (multi-PhD persona, command pipeline, agents, and skills). Installs to `~/.claude/themes/` and applies the same way standalone or as part of a Professor install.
 
 ## License
 
